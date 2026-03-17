@@ -10,7 +10,7 @@ st.markdown("""
     .stButton button { background: linear-gradient(90deg, #1f6feb, #7928ca); color: white; border-radius: 10px; width: 100%; height: 3em; }
     .result-box { background-color: #161b22; padding: 20px; border-radius: 15px; border-left: 5px solid #1f6feb; }
     </style>
-    """, unsafe_update=True)
+    """, unsafe_allow_html=True)
 
 with st.sidebar:
     st.title("⚙️ Settings")
